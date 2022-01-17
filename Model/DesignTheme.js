@@ -39,8 +39,8 @@ class DesignTheme {
             this.background = background ? background : "#FFFFFF";
             this.height = height ? height : "fit-content";
             this.width = width ? width : "fit-content";
-            this.margin = margin ? margin : "5px";
-            this.padding = padding ? padding : "5px";
+            this.margin = margin ? margin : "0px";
+            this.padding = padding ? padding : "0px";
 
         } catch (error) {
             console.error(error);
