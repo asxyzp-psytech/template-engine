@@ -1,0 +1,11 @@
+{
+  "name": "template-engine",
+  "version": "0.0.0",
+  "description": "System for creating and validating templates from various sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "asxyzp",
+  "license": "ISC"
+}
