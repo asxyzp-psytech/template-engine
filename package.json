@@ -1,11 +1,9 @@
 {
-  "name": "template-engine",
+  "name": "mutter-template-engine",
   "version": "0.0.0",
-  "description": "System for creating and validating templates from various sources",
+  "private": false,
+  "description": "It is a package which can be used for importing & validating templates, as well as templatising data which will be used by mutter-react-render-engine package for rendering content",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "asxyzp",
   "license": "ISC"
 }
