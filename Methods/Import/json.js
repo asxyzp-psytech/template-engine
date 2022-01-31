@@ -1,12 +1,12 @@
-import fs from 'fs';
+const fs = require('fs');
 
 /**
- * FUNCTION: JSON(path)
+ * FUNCTION: json(path)
  * FUNCTIONALITY: IMPORTS TEMPLATES FROM JSON FILE 
  * @param {String} path: PATH OF THE JSON FILE
  * @returns <Array>PostCardTemplate : ARRAY OF THE POST CARD TEMPLATES
  */
-function JSON(path) {
+function json(path) {
 
     //CHECKING FILE TYPE FROM PATH NAME
     if (!path.includes(".json")) {
@@ -19,6 +19,7 @@ function JSON(path) {
         }
         else {
             // PARSING JSON FILE
+
             const JSONData = JSON.parse(fs.readFileSync(path, { encoding: "utf8" }));
 
             //VALIDATING BASIC STRUCTURE OF THE JSON TEMPLATE DATA FILE
@@ -35,4 +36,4 @@ function JSON(path) {
     }
 }
 
-module.exports = JSON;
+module.exports = json;
