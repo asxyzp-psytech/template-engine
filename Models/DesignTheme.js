@@ -47,7 +47,5 @@ class DesignTheme {
         }
     }
 
-
-
 }
 module.exports = DesignTheme;
