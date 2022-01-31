@@ -5,7 +5,7 @@
 class Layout {
 
     //STATIC VARIABLES
-    static validLayoutTypes = ["container","image","text"];     //STORES VALID LAYOUT TYPES
+    static validLayoutTypes = ["container", "image", "text"];     //STORES VALID LAYOUT TYPES
 
     //METHODS
     /**
@@ -48,8 +48,8 @@ class Layout {
             if (!Array.isArray(children))
                 throw new Error("Layout CONSTRUCTOR: CHILDEN DATA SHOULD BE AN ARRAY");
             else
-                children.forEach((element)=>{
-                    if(!(typeof element === "string"))
+                children.forEach((element) => {
+                    if (!(typeof element === "string"))
                         throw new Error(`Layout CONSTRUCTOR: CHILD ID SHOULD BE A STRING`);
                 });
 
@@ -57,8 +57,8 @@ class Layout {
             if (!Array.isArray(properties))
                 throw new Error("Layout CONSTRUCTOR: CLASS DATA SHOULD BE AN ARRAY");
             else
-                properties.forEach((element)=>{
-                    if(!(typeof element === "string"))
+                properties.forEach((element) => {
+                    if (!(typeof element === "string"))
                         throw new Error(`Layout CONSTRUCTOR : PROPERTIES SHOULD BE A STRING`);
                 });
 

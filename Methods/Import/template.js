@@ -5,7 +5,7 @@ const fs = require('fs');
  * FUNCTION: template(path)
  * FUNCTIONALITY: IMPORTS TEMPLATES FROM JSON FILE 
  * @param {String} path: PATH OF THE JSON FILE
- * @returns {Array} PostCardTemplate : ARRAY OF THE POST CARD TEMPLATES
+ * @returns {Array} Template : ARRAY OF TEMPLATES
  */
 function template(path) {
 

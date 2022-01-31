@@ -21,12 +21,12 @@ function dataMap(path) {
         else {
             // PARSING JSON FILE
             const JSONData = JSON.parse(fs.readFileSync(path, { encoding: "utf8" }));
-            
+
             // VALIDATING BASIC STRUCTURE OF THE DATA MAP FILE
-            if(!(Object.keys(JSONData).includes("data") && Array.isArray(JSONData.data))){
+            if (!(Object.keys(JSONData).includes("data") && Array.isArray(JSONData.data))) {
                 throw new Error("TYPE ERROR: IMPORTED JSON FILE'S KEY data, SHOULD BE ASSIGNED TO AN ARRAY");
             }
-            if(!(Object.keys(JSONData).includes("count") && typeof JSONData.count === "number")){
+            if (!(Object.keys(JSONData).includes("count") && typeof JSONData.count === "number")) {
                 throw new Error("TYPE ERROR: IMPORTED JSON FILE'S KEY count SHOULD BE ASSIGNED TO A NUMBER");
             }
 
