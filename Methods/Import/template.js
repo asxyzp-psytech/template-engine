@@ -1,21 +1,22 @@
+// IMPORTING MODULES/PACKAGES
 const fs = require('fs');
 
 /**
- * FUNCTION: json(path)
+ * FUNCTION: template(path)
  * FUNCTIONALITY: IMPORTS TEMPLATES FROM JSON FILE 
  * @param {String} path: PATH OF THE JSON FILE
  * @returns {Array} PostCardTemplate : ARRAY OF THE POST CARD TEMPLATES
  */
-function json(path) {
+function template(path) {
 
     //CHECKING FILE TYPE FROM PATH NAME
     if (!path.includes(".json")) {
-        throw new Error("IMPORT ERROR: INVALID FILE TYPE. NEED .json FILE AS INPUT.");
+        throw new Error("IMPORT ERROR: INVALID FILE TYPE. NEED .json FILE AS INPUT");
     }
     else {
         //CHECKING WHETHER THE FILE EXISTS OR NOT
         if (!fs.existsSync(path)) {
-            throw new Error(`IMPORT ERROR: FILE ${path} DOES NOT EXISTS.`);
+            throw new Error(`IMPORT ERROR: FILE ${path} DOES NOT EXISTS`);
         }
         else {
             // PARSING JSON FILE
@@ -35,4 +36,4 @@ function json(path) {
     }
 }
 
-module.exports = json;
+module.exports = template;

@@ -1,5 +1,7 @@
-const json = require('./json');
+const template = require('./template');
+const dataMap = require('./dataMap');
 
 module.exports = {
-    'json': json
+    'dataMap': dataMap,
+    'template': template,
 };
