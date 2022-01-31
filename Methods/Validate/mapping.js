@@ -21,7 +21,7 @@ function mapping(template, dataMap) {
 
     // VALIDATING DATA MAP KEYS WITH TEMPLATE LAYOUT ELEMENTS
     // STORING TEMPLATE ELEMENT & DATA MAP KEYS
-    const dataMapKeys = Object.keys(dataMap);
+    const dataMapKeys = Object.keys(dataMap.element);
     const templateElementKeys = Object.keys(template.element);
     dataMapKeys.forEach(dataMapKey => {
         if(!templateElementKeys.includes(dataMapKey)){
