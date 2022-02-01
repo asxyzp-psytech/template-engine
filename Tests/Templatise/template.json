@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "id": "1",
+            "id": "4b97df4a-84fc-4046-a517-0a841986e8xy",
             "topElementId": "59ff5803-0c8f-45b5-a364-5e91bcb10550",
             "design": {
                 "3d87f501-3941-474e-8ce2-5489faf99ba2": {
@@ -41,7 +41,8 @@
                     "design": "",
                     "text": "",
                     "children": [
-                        "54d1b394-da78-4a1b-abd1-95a43e404fd9"
+                        "54d1b394-da78-4a1b-abd1-95a43e404fd9",
+                        "54d1b394-da78-4a1b-abd1-95a43e404lmn"
                     ],
                     "properties": [
                         "m-flex-grow",
@@ -59,8 +60,7 @@
                     "design": "3d87f501-3941-474e-8ce2-5489faf99ba2",
                     "text": "d0f71ec4-095b-485a-b145-ac242defa74b",
                     "children": [
-                        "4b97df4a-84fc-4046-a517-0a841986e8e4",
-                        "1"
+                        "4b97df4a-84fc-4046-a517-0a841986e8e4"
                     ],
                     "properties": [
                         "m-card",
@@ -83,22 +83,23 @@
                         "Drinking from the Fetid Well: Data Poisoning and Machine Learning"
                     ],
                     "properties": [
-                        "h1",
+                        "h4",
                         "fw-bolder"
                     ]
                 },
-                "54d1b394-da78-4a1b-abd1-95a43e404fl6": {
-                    "id": "54d1b394-da78-4a1b-abd1-95a43e404fl6",
-                    "parent": "59ff5803-0c8f-45b5-a364-5e91bcb10550",
-                    "type": "image",
-                    "children": [],
-                    "properties": [
-                        "w-100",
-                        "h-100",
-                        "src=undefined"
-                    ],
+                "54d1b394-da78-4a1b-abd1-95a43e404lmn": {
+                    "id": "54d1b394-da78-4a1b-abd1-95a43e404lmn",
+                    "parent": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                    "type": "text",
                     "design": "",
-                    "text": ""
+                    "text": "",
+                    "children": [
+                        "Post Body"
+                    ],
+                    "properties": [
+                        "small",
+                        "fw-light"
+                    ]
                 }
             }
         }
