@@ -5,5 +5,9 @@
   "description": "It is a package which can be used for importing & validating templates, as well as templatising data which will be used by mutter-react-render-engine package for rendering content",
   "main": "index.js",
   "author": "asxyzp",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rss-parser": "^3.12.0",
+    "uuid": "^8.3.2"
+  }
 }
