@@ -1,0 +1,356 @@
+{
+    "data": [
+        {
+            "stream": {
+                "title": "asxyzp",
+                "description": "computers + mathematics",
+                "image": {
+                    "link": "https://asxyzp.code.blog",
+                    "url": "https://asxyzpcode.files.wordpress.com/2020/01/wp-1580499688462.jpg?w=32",
+                    "title": "asxyzp",
+                    "width": "32",
+                    "height": "32"
+                },
+                "link": "https://asxyzp.code.blog"
+            },
+            "template": {
+                "id": "867f7e8b-ae59-4915-8d1f-29dce8c86b7e",
+                "topElementId": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                "design": {
+                    "3d87f501-3941-474e-8ce2-5489faf99ba2": {
+                        "id": "3d87f501-3941-474e-8ce2-5489faf99ba2",
+                        "color": "#fff",
+                        "background": "#fc6a03",
+                        "height": "fit-content",
+                        "width": "fit-content",
+                        "margin": "0px",
+                        "padding": "5px"
+                    },
+                    "730231ae-0ab5-456e-9e50-70908ca31907": {
+                        "id": "730231ae-0ab5-456e-9e50-70908ca31907",
+                        "color": "rgba(0,0,0,0)",
+                        "background": "rgba(0,0,0,0)",
+                        "height": "rgba(0,0,0,0)",
+                        "width": "fit-content",
+                        "margin": "fit-content",
+                        "padding": "5px"
+                    }
+                },
+                "text": {
+                    "d0f71ec4-095b-485a-b145-ac242defa74b": {
+                        "id": "d0f71ec4-095b-485a-b145-ac242defa74b",
+                        "fontFamily": "'Merriweather', serif",
+                        "fontWeight": "400",
+                        "fontStyle": "normal",
+                        "textAlign": "left",
+                        "textDecoration": "none"
+                    }
+                },
+                "element": {
+                    "4b97df4a-84fc-4046-a517-0a841986e8e4": {
+                        "id": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "parent": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                        "type": "container",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "54d1b394-da78-4a1b-abd1-95a43e404fd9",
+                            "54d1b394-da78-4a1b-abd1-95a43e404lmn"
+                        ],
+                        "properties": [
+                            "m-flex-grow",
+                            "mt-2",
+                            "fw-bolder",
+                            "d-flex",
+                            "flex-column",
+                            "justify-content-center"
+                        ]
+                    },
+                    "54d1b394-da78-4a1b-abd1-95a43e404fd9": {
+                        "id": "54d1b394-da78-4a1b-abd1-95a43e404fd9",
+                        "parent": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "type": "text",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "[📷] Tinkering with images #1"
+                        ],
+                        "properties": [
+                            "h4",
+                            "fw-bolder"
+                        ]
+                    },
+                    "54d1b394-da78-4a1b-abd1-95a43e404lmn": {
+                        "id": "54d1b394-da78-4a1b-abd1-95a43e404lmn",
+                        "parent": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "type": "text",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "Starting out with images (using OpenCV &#38; Python) : Learned how to capture &#38; store pixel values of image in a text file."
+                        ],
+                        "properties": [
+                            "small",
+                            "fw-light"
+                        ]
+                    },
+                    "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf": {
+                        "id": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                        "parent": null,
+                        "type": "container",
+                        "design": "3d87f501-3941-474e-8ce2-5489faf99ba2",
+                        "text": "d0f71ec4-095b-485a-b145-ac242defa74b",
+                        "children": [
+                            "4b97df4a-84fc-4046-a517-0a841986e8e4"
+                        ],
+                        "properties": [
+                            "m-card",
+                            "position-absolute",
+                            "d-flex",
+                            "mx-auto",
+                            "flex-column",
+                            "p-3",
+                            "border",
+                            "rounded"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "stream": {
+                "title": "asxyzp",
+                "description": "computers + mathematics",
+                "image": {
+                    "link": "https://asxyzp.code.blog",
+                    "url": "https://asxyzpcode.files.wordpress.com/2020/01/wp-1580499688462.jpg?w=32",
+                    "title": "asxyzp",
+                    "width": "32",
+                    "height": "32"
+                },
+                "link": "https://asxyzp.code.blog"
+            },
+            "template": {
+                "id": "867f7e8b-ae59-4915-8d1f-29dce8c86b7e",
+                "topElementId": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                "design": {
+                    "3d87f501-3941-474e-8ce2-5489faf99ba2": {
+                        "id": "3d87f501-3941-474e-8ce2-5489faf99ba2",
+                        "color": "#fff",
+                        "background": "#fc6a03",
+                        "height": "fit-content",
+                        "width": "fit-content",
+                        "margin": "0px",
+                        "padding": "5px"
+                    },
+                    "730231ae-0ab5-456e-9e50-70908ca31907": {
+                        "id": "730231ae-0ab5-456e-9e50-70908ca31907",
+                        "color": "rgba(0,0,0,0)",
+                        "background": "rgba(0,0,0,0)",
+                        "height": "rgba(0,0,0,0)",
+                        "width": "fit-content",
+                        "margin": "fit-content",
+                        "padding": "5px"
+                    }
+                },
+                "text": {
+                    "d0f71ec4-095b-485a-b145-ac242defa74b": {
+                        "id": "d0f71ec4-095b-485a-b145-ac242defa74b",
+                        "fontFamily": "'Merriweather', serif",
+                        "fontWeight": "400",
+                        "fontStyle": "normal",
+                        "textAlign": "left",
+                        "textDecoration": "none"
+                    }
+                },
+                "element": {
+                    "4b97df4a-84fc-4046-a517-0a841986e8e4": {
+                        "id": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "parent": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                        "type": "container",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "54d1b394-da78-4a1b-abd1-95a43e404fd9",
+                            "54d1b394-da78-4a1b-abd1-95a43e404lmn"
+                        ],
+                        "properties": [
+                            "m-flex-grow",
+                            "mt-2",
+                            "fw-bolder",
+                            "d-flex",
+                            "flex-column",
+                            "justify-content-center"
+                        ]
+                    },
+                    "54d1b394-da78-4a1b-abd1-95a43e404fd9": {
+                        "id": "54d1b394-da78-4a1b-abd1-95a43e404fd9",
+                        "parent": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "type": "text",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "[📷] Tinkering with images #1"
+                        ],
+                        "properties": [
+                            "h4",
+                            "fw-bolder"
+                        ]
+                    },
+                    "54d1b394-da78-4a1b-abd1-95a43e404lmn": {
+                        "id": "54d1b394-da78-4a1b-abd1-95a43e404lmn",
+                        "parent": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "type": "text",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "Starting out with images (using OpenCV &#38; Python) : Learned how to capture &#38; store pixel values of image in a text file."
+                        ],
+                        "properties": [
+                            "small",
+                            "fw-light"
+                        ]
+                    },
+                    "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf": {
+                        "id": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                        "parent": null,
+                        "type": "container",
+                        "design": "3d87f501-3941-474e-8ce2-5489faf99ba2",
+                        "text": "d0f71ec4-095b-485a-b145-ac242defa74b",
+                        "children": [
+                            "4b97df4a-84fc-4046-a517-0a841986e8e4"
+                        ],
+                        "properties": [
+                            "m-card",
+                            "position-absolute",
+                            "d-flex",
+                            "mx-auto",
+                            "flex-column",
+                            "p-3",
+                            "border",
+                            "rounded"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "stream": {
+                "title": "asxyzp",
+                "description": "computers + mathematics",
+                "image": {
+                    "link": "https://asxyzp.code.blog",
+                    "url": "https://asxyzpcode.files.wordpress.com/2020/01/wp-1580499688462.jpg?w=32",
+                    "title": "asxyzp",
+                    "width": "32",
+                    "height": "32"
+                },
+                "link": "https://asxyzp.code.blog"
+            },
+            "template": {
+                "id": "867f7e8b-ae59-4915-8d1f-29dce8c86b7e",
+                "topElementId": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                "design": {
+                    "3d87f501-3941-474e-8ce2-5489faf99ba2": {
+                        "id": "3d87f501-3941-474e-8ce2-5489faf99ba2",
+                        "color": "#fff",
+                        "background": "#fc6a03",
+                        "height": "fit-content",
+                        "width": "fit-content",
+                        "margin": "0px",
+                        "padding": "5px"
+                    },
+                    "730231ae-0ab5-456e-9e50-70908ca31907": {
+                        "id": "730231ae-0ab5-456e-9e50-70908ca31907",
+                        "color": "rgba(0,0,0,0)",
+                        "background": "rgba(0,0,0,0)",
+                        "height": "rgba(0,0,0,0)",
+                        "width": "fit-content",
+                        "margin": "fit-content",
+                        "padding": "5px"
+                    }
+                },
+                "text": {
+                    "d0f71ec4-095b-485a-b145-ac242defa74b": {
+                        "id": "d0f71ec4-095b-485a-b145-ac242defa74b",
+                        "fontFamily": "'Merriweather', serif",
+                        "fontWeight": "400",
+                        "fontStyle": "normal",
+                        "textAlign": "left",
+                        "textDecoration": "none"
+                    }
+                },
+                "element": {
+                    "4b97df4a-84fc-4046-a517-0a841986e8e4": {
+                        "id": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "parent": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                        "type": "container",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "54d1b394-da78-4a1b-abd1-95a43e404fd9",
+                            "54d1b394-da78-4a1b-abd1-95a43e404lmn"
+                        ],
+                        "properties": [
+                            "m-flex-grow",
+                            "mt-2",
+                            "fw-bolder",
+                            "d-flex",
+                            "flex-column",
+                            "justify-content-center"
+                        ]
+                    },
+                    "54d1b394-da78-4a1b-abd1-95a43e404fd9": {
+                        "id": "54d1b394-da78-4a1b-abd1-95a43e404fd9",
+                        "parent": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "type": "text",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "[📷] Tinkering with images #1"
+                        ],
+                        "properties": [
+                            "h4",
+                            "fw-bolder"
+                        ]
+                    },
+                    "54d1b394-da78-4a1b-abd1-95a43e404lmn": {
+                        "id": "54d1b394-da78-4a1b-abd1-95a43e404lmn",
+                        "parent": "4b97df4a-84fc-4046-a517-0a841986e8e4",
+                        "type": "text",
+                        "design": "",
+                        "text": "",
+                        "children": [
+                            "Starting out with images (using OpenCV &#38; Python) : Learned how to capture &#38; store pixel values of image in a text file."
+                        ],
+                        "properties": [
+                            "small",
+                            "fw-light"
+                        ]
+                    },
+                    "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf": {
+                        "id": "b34f5933-08eb-4f54-b4c0-dc78f5d9c6bf",
+                        "parent": null,
+                        "type": "container",
+                        "design": "3d87f501-3941-474e-8ce2-5489faf99ba2",
+                        "text": "d0f71ec4-095b-485a-b145-ac242defa74b",
+                        "children": [
+                            "4b97df4a-84fc-4046-a517-0a841986e8e4"
+                        ],
+                        "properties": [
+                            "m-card",
+                            "position-absolute",
+                            "d-flex",
+                            "mx-auto",
+                            "flex-column",
+                            "p-3",
+                            "border",
+                            "rounded"
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "count": 3
+}
