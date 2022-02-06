@@ -1,8 +1,8 @@
 {
-  "name": "mutter-template-engine",
+  "name": "@psytech/template-engine",
   "version": "0.0.0",
   "private": false,
-  "description": "It is a package which can be used for importing & validating templates, as well as templatising data which will be used by mutter-react-render-engine package for rendering content",
+  "description": "It is a package that can be used for importing & validating, templates & source map data, which can be used to templatise data received from any source (e.g. CSV, JSON) that can be rendered using @psytech/react-render-engine package",
   "main": "index.js",
   "author": "asxyzp",
   "license": "ISC",
