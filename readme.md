@@ -5,3 +5,4 @@
 This package is to be used for importing & validating, templates & source map data, which can be used to templatise data received from any source (e.g. CSV, JSON) that can be rendered using @psytech/react-render-engine package
 
 Here's a simple demonstration of this, which templatises RSS feed into a selected template: https://r2c.psytech42.repl.co/
+![rss-to-card demo](https://s10.gifyu.com/images/rss-to-card.gif)
