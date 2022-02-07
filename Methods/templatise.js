@@ -1,29 +1,29 @@
 const uuid = require('uuid');
 
 /**
- * FUNCTION: templatise(template, dataMap, data)
+ * FUNCTION: templatise(template, sourceMap, data)
  * FUNCTIONALITY: TEMPLATISING DATA
  * @param {Object} template TEMPLATE DATA FOR WHICH THE DATA WILL BE TEMPLATISED
- * @param {Object} dataMap MAPPING FOR DATA TO TEMPLATE 
+ * @param {Object} sourceMap MAPPING FOR DATA TO TEMPLATE 
  * @param {Object} data DATA TO BE TEMPLATISED
  * @returns {Object} TEMPLATISED DATA
  */
-function templatise(template, dataMap, data) {
+function templatise(template, sourceMap, data) {
 
     // ITERATING THROUGH EACH ELEMENT IN THE DATA MAP & REPLACING MAPPED DATA IN TEMPLATE
-    Object.keys(dataMap.element).forEach(
-        (dataMapId) => {
+    Object.keys(sourceMap.element).forEach(
+        (sourceMapId) => {
 
             // UNSHIFTING IMAGE SOURCE IN PROPERTIES
-            if (template.element[dataMapId].type === "image") {
-                /**data[dataMap.element[dataMapId] => {'children':[...], 'properties': [...], ... etc} */
-                template.element[dataMapId].properties.unshift(`src=${data[dataMap.element[dataMapId].properties]}`);
+            if (template.element[sourceMapId].type === "image") {
+                /**data[sourceMap.element[sourceMapId] => {'children':[...], 'properties': [...], ... etc} */
+                template.element[sourceMapId].properties.unshift(`src=${data[sourceMap.element[sourceMapId].properties]}`);
             }
 
             // REPLACING TEMPLATE ELEMENT'S CHILD WITH TEXT DATA
-            else if (template.element[dataMapId].type === "text") {
-                /**data[dataMap.element[dataMapId] => {'children':[...], 'properties': [...], ... etc} */
-                template.element[dataMapId].children[0] = data[dataMap.element[dataMapId].children];
+            else if (template.element[sourceMapId].type === "text") {
+                /**data[sourceMap.element[sourceMapId] => {'children':[...], 'properties': [...], ... etc} */
+                template.element[sourceMapId].children[0] = data[sourceMap.element[sourceMapId].children];
             }
         }
     );
