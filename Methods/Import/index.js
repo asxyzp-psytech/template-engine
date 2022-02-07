@@ -1,7 +1,7 @@
 const template = require('./template');
-const dataMap = require('./dataMap');
+const sourceMap = require('./sourceMap');
 
 module.exports = {
-    'dataMap': dataMap,
     'template': template,
+    'sourceMap': sourceMap
 };

@@ -29,8 +29,7 @@ function dataMap(path) {
             if (!(Object.keys(JSONData).includes("count") && typeof JSONData.count === "number")) {
                 throw new Error("TYPE ERROR: IMPORTED JSON FILE'S KEY count SHOULD BE ASSIGNED TO A NUMBER");
             }
-
-            //VALIDATING INDIVIDUAL TEMPLATES #TBD
+            
             return JSONData;
         }
     }
